@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+
+    background-color: #242d33;
+    color: aliceblue;
+    font-family: Impact, fantasy;
+}
+
+#foto{
+    border: 2px solid black;
+}
+
+#principal{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+
+}
+#juntar{
+    position: relative;
+    top: 650px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+#texto{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    position: relative;
+    top: 650px;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    width: 600px;
+    height: 340px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+
+}
+
+#loc{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#docs{
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
